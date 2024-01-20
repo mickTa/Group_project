@@ -1,0 +1,493 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+header {
+    background-image: url("image/header.jpg");
+    height: 600px;
+    margin-top: -5%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.buttonCardTop{
+    color: black;
+    background-color:white;
+    width: 11%;
+    height: 4%;
+    border-radius: 12px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+
+    
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.buttonmid {
+    display: flex;
+    align-items: center;
+    gap: 30px;    
+}
+.pos {
+    margin-top: 8%;
+}
+header a{
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+
+}
+header h1 {
+    font-size: 25px;
+    color:white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+footer {
+    width: 100%;
+    height: 290px;
+    background-color: #f5cda2;
+
+}
+.callbox, .mailbox, .localisationbox {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color:white;
+}
+.callbox img, .mailbox img, .localisationbox img {
+    width: 12%;
+    height: 12%;
+}
+.footercontent {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
+footer a{
+    text-decoration: none;
+    color:black;
+}
+.footercontent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+
+}
+
+.newsletter button {
+    background-color: white;
+    border: none;
+    width: 100px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+    color:#f5cda2;
+}
+.newsletter input {
+    padding: 8px;
+    width: 200px;
+    border-radius: 12px;
+    text-align: center;
+    border: none;
+} 
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;    
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    
+}
+
+/*---ACCUEIL HERO---*/
+.hero-section {
+    background: url("image/accueil-hero.jpg");
+    background-size: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0;
+    color: whitesmoke;
+}
+
+.hero-section div {
+    width: 60%;
+}
+
+.hero-section h1 {
+    text-transform: uppercase;
+    font-size: 300%;
+}
+
+.hero-section p {
+    padding: 5%;
+    background-color: rgba(32, 32, 32, 0.7);
+    font-size: 120%;
+    font-weight: 300;
+    border-radius: 30px;
+}
+
+#accroche {
+    text-align: center;
+    margin: 10% 0;
+    font-size: 200%;
+    font-family: 'Ubuntu', sans-serif;
+}
+.texthero {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+/*---ACCUEIL HORAIRES---*/
+.acc-horaire {
+    display: flex;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.acc-horaire img {
+    width: 30%;
+}
+
+.acc-horaire div {
+    display: flex;
+    width: 70%;
+    
+} 
+.title_horaire {
+    padding-bottom: 3%;
+}
+.acc-horaire-txt {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.zone-horaires * {
+    flex-direction: column;
+}
+
+/*---ACCUEIL AVANTAGES---*/
+.avantagefirst_title {
+    text-align: center;
+    padding-top: 2%;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+}
+.avantages div {
+    width: 50%;
+    text-align: center;
+    
+}
+.avantages {
+    display: flex;
+}
+
+.shadowbox {
+    box-shadow: 0px 0px 3px 3px #f5cda2;
+    margin: 5% auto;
+    transition: transform 0.2s linear;
+
+}
+.shadowbox:hover {
+    transform: scale(1.2);
+}
+.shadowbox p {
+    font-family: 'Roboto', sans-serif;
+
+}
+.shadowbox h1{
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.textavantages {
+    padding: 3% 3% 3% 3%;
+}
+
+
+
+/* EVENT PAGE*/
+
+.event-section {
+    text-align: center; 
+    font-family: 'Oswald', sans-serif;
+}
+
+.event-section h2 {
+    color: #333; 
+}
+
+.event-sectionp {
+    color: #666; 
+    line-height: 1.5;
+    text-align: center;
+    padding: 0% 4% 0% 4%;
+
+}
+.event-sectiontitre{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    height: 30%;
+    background:#a75265;  
+    text-align: center; 
+    color: #333;
+    flex-direction: column;
+    padding-bottom: 2%;
+    
+}
+.purplesection{
+    color: white;
+    padding: 0% 4% 0% 4%;
+}
+.event-sectionleft,
+.event-sectionright {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    background-color:  #fcefd7;
+}
+
+.event-sectionleft .event-text,
+.event-sectionright .event-text {
+    width: 50%; 
+    text-align: center;
+}
+
+.event-sectionleft img,
+.event-sectionright img {
+    width: 50%; 
+    max-width: 100%; 
+}
+
+.event-section p:last-child {
+    margin-top: 20px;
+}
+
+
+.informative-section {
+    padding-top: 1%;
+    text-align: center;
+}
+
+.events-container {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 12px;
+    text-align: center;
+    padding: 1% 5% 1%;
+    
+}
+.event {
+    width: 23%;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    background-color: #fcefd7;
+    transition: transform 0.2s linear;
+}
+.event:hover {
+    transform: scale(1.2);
+}
+.event h3 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 800;
+}
+.informative-section h2 {
+    font-family: 'Ubutntu', sans-serif;
+    font-weight: 700;
+}
+.event p{
+    padding: 2% 2% 4% 2%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+.event img {
+    width: 100%;
+}
+
+.events-container img {
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+
+/* A PROPOS SECTION 1*/ 
+.content_section1propos{
+    padding-top: 5%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+
+    
+}
+.content_section1propos p{
+    width: 65%;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+    line-height: 22px;
+}
+.section1propos {
+    background-color: #fcefd7;
+    padding-bottom: 5%;
+    
+}
+.content_section1propos h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #383838;
+
+}
+.content_section1propos img {
+    border-radius: 12px;
+    width: 90%;
+    
+}
+/* A PROPOS SECTION 2*/
+.section2propos {
+    display: flex;
+}
+.section2propos img, .content_section2propos{
+    width: 50%;
+}
+.content_section2propos {
+    text-align: center;
+    margin: auto;
+    width: 30%;
+    box-shadow: 0px 0px 3px 3px #f5cda2;
+
+    
+    
+}
+.content_section2propos h1{
+    padding-bottom: 4%;
+    font-size: 28px;
+    color: #383838;
+    font-family: 'Ubuntu', sans-serif;
+    
+    
+}
+.content_section2propos p{
+    letter-spacing: 2.5px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 20px;
+    padding-bottom: 2%;
+    
+
+}
+/*=====CARTE========*/
+.SectionCarte1{
+    width:100%;
+    height:50%;
+    background:#fcefd7;
+    
+}
+.header2Carte{
+    margin-top: -10px;
+    display: flex;
+    justify-content: center;
+    width:100%;
+    height: 30%;
+    background:#a75265;    
+}
+.titleCarte{
+    margin:12px 0 12px 0;
+    color:white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+/*------Content-------*/
+.sectionmenu{
+    display: flex;
+    justify-content: space-between;
+}
+.sectionleft, .sectionright {
+    width: 50%;
+}
+.listcontent{
+    margin-top: 0.5%;
+    margin-bottom:2%;
+    display: flex;
+    justify-content: center;
+    list-style:none;
+}
+.subtitlecarte{
+    margin-top: 2%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    color:midnightblue;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+}
+/*-----style texte---*/
+.list{
+    font-family:'Ubuntu',sans-serif;
+    color:#233142;
+}
+.Description{
+    display: flex;
+    justify-content: center;
+    color:#596e79;
+    font-family:'Roboto',sans-serif;
+    padding: 0% 4% 4% 4%;
+    text-align: center;
+}
+.point{
+    color:#d3d6db;
+    font-family: 'Ubuntu',sans-serif;
+}
+/*---------------*/
+.FooterCarte{
+    margin-top: -5px;
+    display: flex;
+    justify-content:flex-end;
+    width:100%;
+    height: 30%;
+    background:#a75265; 
+}
+.Cartebutton{
+    color:white;
+    margin-right:7%;
+    margin-top:14px;
+    margin-bottom:14px;
+    height: 44px;
+    width: 6%;
+    border-radius:20px;
+    border-style: none;
+    background-color: #ffa952;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    cursor: pointer;
+}
+/*=========*/
+
